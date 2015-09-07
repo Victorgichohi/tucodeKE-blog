@@ -1,0 +1,23 @@
+/* Make post names large. */
+.post-name {
+  font-size: 24pt;
+}
+
+/* Make post content green. */
+.post-content {
+  color: green;
+}
+
+/* The below CSS gets applied on devices with small screens. */
+@media (max-width: 980px) {
+ 
+  /* Reduce the margin. */
+  body {
+    margin: 0px ;
+  }
+ 
+  /* Make the post content larger. */
+  .post-content {
+    font-size: 18pt ;
+  }
+}
