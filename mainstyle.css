@@ -1,10 +1,16 @@
 body{
-    color:#000305;
+    background-color:#0DD0FF;
     font-size:87.5%;/*base font is 40 px*/
     font-family:Arial, 'lucida sans Unicode';
     line-height:1.5; 
     text-align: left;
 }
+/*need to look up on this font stuff
+@font-face{
+    font-family:gooddog;
+    src: url(/)
+}
+  */
 a{
     text-decoration: none;
 }
@@ -21,6 +27,7 @@ a:hover, a:active{
     width: 30%;
     height:auto;
     margin: 2% 0;
+
 }
 .mainheader nav{
     background-color: #666;
@@ -28,6 +35,7 @@ a:hover, a:active{
     border-radius:5px;
      -moz-border-radius:5px;
      -webkit- border-radius:5px;
+    margin-top: 10px;
 }
 .mainheader nav ul{
     list-style: none;
@@ -51,7 +59,6 @@ a:hover, a:active{
 .mainheader nav ul li a{
     border-radius:5px;
      -moz-border-radius:5px;
-     -webkit- border-radius:5px;
+    -webkit- border-radius:5px;
 }
-    
     
